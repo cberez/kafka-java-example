@@ -8,6 +8,7 @@ Used the following articles to implement :
 
 - [Confluent blog - Kafka 0.9 consumer client tutorial](https://www.confluent.io/blog/tutorial-getting-started-with-the-new-apache-kafka-0-9-consumer-client/)
 - [HDP documentation - Kafka development guide](https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.6.2/bk_kafka-component-guide/content/ch_kafka-development.html)
+- [CDH documentation - Kafka performance guide](https://www.cloudera.com/documentation/kafka/latest/topics/kafka_performance.html)
 
 ## Description
 
@@ -26,6 +27,14 @@ Project uses Maven + Java 8, only needs a functional Kafka cluster to
 connect to.
 
 Run `mvn clean package` to package Jar.
+
+On the Kafka cluster, you should have the following broker properties : 
+
+```
+message.max.bytes: XX       # Max sending message size 
+replica.fetch.max.bytes: YY # Max receiveing message size (has to be > XX)
+log.segment.bytes:          # Kafka data file (has to be > XX)
+```
 
 ## Run
 
