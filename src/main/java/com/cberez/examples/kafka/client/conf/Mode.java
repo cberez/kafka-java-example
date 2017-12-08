@@ -1,4 +1,4 @@
-package com.cberez.kafka_java_example.conf;
+package com.cberez.examples.kafka.client.conf;
 
 /**
  * List available job modes for this project

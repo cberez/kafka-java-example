@@ -1,6 +1,6 @@
-package com.cberez.kafka_java_example;
+package com.cberez.examples.kafka.client;
 
-import com.cberez.kafka_java_example.conf.Mode;
+import com.cberez.examples.kafka.client.conf.Mode;
 import org.apache.commons.cli.*;
 import org.apache.log4j.Logger;
 

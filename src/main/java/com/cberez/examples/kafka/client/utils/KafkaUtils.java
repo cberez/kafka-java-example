@@ -1,4 +1,4 @@
-package com.cberez.kafka_java_example.utils;
+package com.cberez.examples.kafka.client.utils;
 
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.KafkaProducer;
