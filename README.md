@@ -63,4 +63,4 @@ java \
 
 ## Contributors
 
-* [César Berezowski](https://github.com/cesarBere)
+* [César Berezowski](https://github.com/cberez)
